@@ -1,0 +1,208 @@
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\ApplicationInsights.config
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\EventManagementMVC.dll.config
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\EventManagementMVC.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\EventManagementMVC.pdb
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\csc.exe
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\csc.exe.config
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\csc.rsp
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\csi.exe
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\csi.exe.config
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\csi.rsp
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.AppContext.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Console.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Diagnostics.Process.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.IO.Compression.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.IO.Pipes.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Reflection.Metadata.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.AccessControl.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Claims.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Principal.Windows.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Threading.Thread.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.ValueTuple.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Xml.XmlDocument.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Xml.XPath.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\vbc.exe
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\vbc.exe.config
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\vbc.rsp
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\VBCSCompiler.exe
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\VBCSCompiler.exe.config
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Antlr3.Runtime.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.Agent.Intercept.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.DependencyCollector.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.Web.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.WindowsServer.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.ApplicationInsights.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.Web.Infrastructure.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Newtonsoft.Json.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Net.Http.Formatting.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Helpers.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Http.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Http.WebHost.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Mvc.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Optimization.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Razor.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.Deployment.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.Razor.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\WebGrease.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Helpers.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Mvc.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Optimization.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Razor.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.Deployment.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.Razor.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Antlr3.Runtime.pdb
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Newtonsoft.Json.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Net.Http.Formatting.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Http.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\System.Web.Http.WebHost.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.ApplicationInsights.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.DependencyCollector.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.WindowsServer.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.Web.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\obj\Debug\EventManagementMVC.csproj.CoreCompileInputs.cache
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\obj\Debug\EventManagementMVC.csproj.CopyComplete
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\obj\Debug\EventManagementMVC.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\obj\Debug\EventManagementMVC.pdb
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\obj\Debug\EventManagementMVC.csprojResolveAssemblyReference.cache
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\BOL.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\DAL.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\BOL.pdb
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\DAL.pdb
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\MySql.Data.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\Google.Protobuf.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\MySql.Data.xml
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Collections.Immutable.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.IO.FileSystem.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\EventManagementMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\ApplicationInsights.config
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\EventManagementMVC.dll.config
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\EventManagementMVC.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\EventManagementMVC.pdb
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\csc.exe
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\csc.exe.config
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\csc.rsp
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\csi.exe
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\csi.exe.config
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\csi.rsp
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.AppContext.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Collections.Immutable.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Console.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Diagnostics.Process.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.IO.Compression.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.IO.FileSystem.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.IO.Pipes.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Reflection.Metadata.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.AccessControl.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Claims.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Security.Principal.Windows.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Threading.Thread.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.ValueTuple.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Xml.XmlDocument.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Xml.XPath.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\vbc.exe
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\vbc.exe.config
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\vbc.rsp
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\VBCSCompiler.exe
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\roslyn\VBCSCompiler.exe.config
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Antlr3.Runtime.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\BOL.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\DAL.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.Agent.Intercept.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.DependencyCollector.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.Web.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.WindowsServer.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.ApplicationInsights.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.Web.Infrastructure.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Newtonsoft.Json.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Net.Http.Formatting.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Helpers.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Http.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Http.WebHost.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Mvc.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Optimization.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Razor.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.Deployment.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.Razor.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\WebGrease.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\MySql.Data.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Google.Protobuf.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\BOL.pdb
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\DAL.pdb
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Helpers.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Mvc.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Optimization.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Razor.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.Deployment.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.WebPages.Razor.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Antlr3.Runtime.pdb
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Newtonsoft.Json.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Net.Http.Formatting.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Http.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\System.Web.Http.WebHost.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.ApplicationInsights.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.DependencyCollector.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.WindowsServer.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\Microsoft.AI.Web.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\bin\MySql.Data.xml
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\obj\Debug\EventManagementMVC.csprojResolveAssemblyReference.cache
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\obj\Debug\EventManagementMVC.csproj.CoreCompileInputs.cache
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\obj\Debug\EventManagementMVC.csproj.CopyComplete
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\obj\Debug\EventManagementMVC.dll
+F:\EventManagementMvc Final project\EventManagementMVC\EventManagementMVC\obj\Debug\EventManagementMVC.pdb

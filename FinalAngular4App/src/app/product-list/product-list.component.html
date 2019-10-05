@@ -1,0 +1,23 @@
+<h2>Transflower Gardern</h2>
+ <!--
+<product-like name="Gerbera" price=12 quantity=237 
+imageUrl="/assets/images/Transflower.jpg"></product-like>
+<product-like name="Carnation" price=10 quantity=233 
+imageUrl="/assets/images/Transflower.jpg"></product-like>
+ 
+ -->
+
+ 
+<h3>Flower Names</h3>
+  <ol>
+    <li  *ngFor ="let name  of names">{{name|uppercase}}</li>
+  </ol> 
+
+
+ <h3>Flower List</h3>
+<ul>
+  <li *ngFor="let product of products">
+    <p> {{product.name}} | {{product.price|currency:USD}} | 
+        {{product.quantity}}  <p>
+  </li>
+</ul> 

@@ -1,0 +1,30 @@
+<div>
+    <app-admin-task></app-admin-task>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <app-edit-flower></app-edit-flower>
+  </div>
+    <div class="col-md-6">
+<table class="table table-sm table-hover">
+  <tr *ngFor="let flower of adminService.showFlower"  >
+ <td>{{flower.FlowerId}}</td>
+ <td>{{flower.FlowerName}}</td>
+ <td>{{flower.FlowerCost}}</td>
+ <!--<td>{{flower.FlowerFileName}}</td>
+ <td>{{flower.FlowerFilePath}}</td>-->
+ <td>
+  <a class="btn" (click)="editFlower(flower)">
+    <i class="fa fa-pencil-square-o">Edit</i>
+  </a>
+
+  <a class="btn text-danger" (click)="onDeleteFlower(flower.FlowerId)">
+    <i class="fa fa-trash-o">Delete</i>
+  </a>
+</td>
+
+ </tr> 
+ </table>
+ </div>
+</div>

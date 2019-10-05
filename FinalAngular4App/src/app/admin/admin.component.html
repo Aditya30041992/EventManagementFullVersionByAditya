@@ -1,0 +1,21 @@
+
+<div>
+  <h1 align="center" class="jumbotron bg-secondary text-white">Admin Login</h1>
+
+<form class="form" #adminLogin="ngForm" (ngSubmit)='onSubmit(adminLogin)'>
+
+
+<table align="center" cellpadding="20" >
+
+<tr><td>AdminID :-</td><td><input type="number" id="Id" class="form-control" ngModel name="Id"  [(ngModel)]="adminService.Id"></td></tr>
+
+
+<tr><td>Password :-</td><td><input type="password" id="password" class="form-control" ngModel name="password" [(ngModel)]="adminService.passsword"></td></tr>
+
+  <tr><td><button  type="submit" [disabled]="!adminLogin.valid" class="btn btn-lg btn-block btn-success">Login</button>
+  </td></tr>
+             
+</table>
+</form>
+
+</div>

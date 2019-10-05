@@ -1,0 +1,11 @@
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\BOL\bin\Debug\BOL.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\BOL\bin\Debug\BOL.pdb
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\BOL\obj\Debug\BOL.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\BOL\obj\Debug\BOL.pdb
+F:\EventManagementMvc Final project\EventManagementMVC\BOL\bin\Debug\BOL.dll
+F:\EventManagementMvc Final project\EventManagementMVC\BOL\bin\Debug\BOL.pdb
+F:\EventManagementMvc Final project\EventManagementMVC\BOL\obj\Debug\BOL.csprojResolveAssemblyReference.cache
+F:\EventManagementMvc Final project\EventManagementMVC\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+F:\EventManagementMvc Final project\EventManagementMVC\BOL\obj\Debug\BOL.dll
+F:\EventManagementMvc Final project\EventManagementMVC\BOL\obj\Debug\BOL.pdb

@@ -1,0 +1,35 @@
+<div>
+  <app-customer-task></app-customer-task>
+</div>
+<div>
+<form  class="custm-form" #bookvenueForm="ngForm" (ngSubmit)="onSubmit(bookvenueForm)">
+  <table cellpadding="10"  align="center"  >
+    
+    <tr><td>Select Venue Name :-</td><td><select name="VenueId" #VenueId="ngModel" [(ngModel)]="customerTaskService.selectedBookVenue.VenueId">
+      <option value="V01">Pratidnya Hall</option>
+      <option value="V02">Sai Mangal Pune </option>
+      <option value="V03">Ganesh Krupa Pune </option>
+      <option value="V04">Indraprastha Multipurpose Hall</option>
+
+    </select></td></tr>
+    
+    <tr><td>Select Event Type :-</td><td><select name="EventTypeId" #EventTypeId="ngModel" [(ngModel)]="customerTaskService.selectedBookVenue.EventTypeId">
+      <option value="marriage">Marriage</option>
+    </select></td></tr>     
+
+    <tr><td>No. of Guests :-</td><td><input type="number" class="form-control" name="GuestCount" #GuestCount="ngModel" [(ngModel)]="customerTaskService.selectedBookVenue.GuestCount"></td></tr>
+
+    <tr><td>Booking Date :-</td><td><input type="date" class="form-control" name="BookDate" #BookDate="ngModel" [(ngModel)]="customerTaskService.selectedBookVenue.BookDate"></td></tr>   
+   
+    <tr><td>Customer Id :-</td><td><input class="form-control"  name="CustomerId"  [(ngModel)]="cid"></td></tr>   
+
+    
+    <tr><td> <br><button [disabled]="!bookvenueForm.valid" type="submit" class="btn btn-lg btn-black btn-info">Submit</button></td>
+
+    <td><br><button type="button" class="btn btn-lg btn-black btn-secondary" (click)="resetForm(bookvenueForm)" >Reset</button></td></tr>                                         
+                         
+
+      </table>
+
+</form>
+</div>

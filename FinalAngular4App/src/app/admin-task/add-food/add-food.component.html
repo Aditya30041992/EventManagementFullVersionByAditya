@@ -1,0 +1,31 @@
+<div>
+    <app-admin-task></app-admin-task>
+
+  <form  class="custm-form" #foodForm="ngForm" (ngSubmit)="onSubmit(foodForm)">
+  <table align="center" cellpadding="10">
+            
+    <tr><td>Food Id :-</td><td><input class="form-control" name="FoodId" #FoodId="ngModel" [(ngModel)]="adminTaskService.selectedFood.FoodId"></td></tr>
+    
+     <tr><td>Food Name:- </td><td><input class="form-control" name="FoodName" #FoodName="ngModel" [(ngModel)]="adminTaskService.selectedFood.FoodName"></td></tr>
+    
+     <tr> <td>Food Cost :-</td><td><input type="number" class="form-control" name="FoodCost" #FoodCost="ngModel" [(ngModel)]="adminTaskService.selectedFood.FoodCost"></td></tr>
+    
+     <tr><td> <br><button [disabled]="!foodForm.valid" type="submit" class="btn btn-lg btn-black btn-info">Submit</button></td>
+      
+     <td><br><button type="button" class="btn btn-lg btn-black btn-secondary" (click)="resetForm(foodForm)" >Reset</button></td></tr>                                         
+     <tr><td><div class="page-header">
+        <div class="container">
+          <div class="navLinks" >
+            <a [routerLink]="['/show-food']">Show Foods List</a>                                                           
+          </div>
+        </div>
+      </div></td></tr>
+     
+     
+ </table>
+</form>
+ <div id="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+

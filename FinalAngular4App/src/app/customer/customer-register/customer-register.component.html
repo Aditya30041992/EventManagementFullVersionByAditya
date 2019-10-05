@@ -1,0 +1,50 @@
+<h2 align="center" class="jumbotron bg-secondary text-white">Customer Register</h2>
+<form  class="custm-form" #customerForm="ngForm" (ngSubmit)="onSubmit(customerForm)">
+  <table align="center" cellspacing="30" >
+            <tr><td>CustomerID :-</td><td><input type="number" class="form-control" name="CustomerId" #CustomerId="ngModel" [(ngModel)]="customerService.selectedCustomer.CustomerId" required></td></tr>
+
+              <tr><td> Name :- </td><td><input class="form-control" name="CustomerName" #CustomerName="ngModel" [(ngModel)]="customerService.selectedCustomer.CustomerName"></td></tr>
+      
+
+      
+                <tr><td>Address :-</td><td><input class="form-control" name="CustomerAddress" #CustomerAddress="ngModel" [(ngModel)]="customerService.selectedCustomer.CustomerAddress"></td></tr>
+        
+
+              
+                  <tr><td>Contact No. :-</td><td><input class="form-control" name="CustomerContact" #CustomerContact="ngModel" [(ngModel)]="customerService.selectedCustomer.CustomerContact"></td></tr>
+         
+
+                 
+                   <tr> <td>City :-</td><td><input class="form-control" name="CustomerCity" #CustomerCity="ngModel" [(ngModel)]="customerService.selectedCustomer.CustomerCity"></td></tr>
+            
+ 
+                   
+                      <tr><td>EmailID :-</td><td><input type="email" class="form-control" name="CustomerEmail" #CustomerEmail="ngModel" [(ngModel)]="customerService.selectedCustomer.CustomerEmail"></td></tr>
+               
+
+                      <tr><td>Password :-</td><td><input type="password" class="form-control" name="CustomerPassword" #CustomerPassword="ngModel" [(ngModel)]="customerService.selectedCustomer.CustomerPassword"></td></tr>
+                
+                
+           
+                     
+                      <tr><td>Coinfirm password :-</td><td><input type="password" class="form-control" name="CustomerConfirmPassword" #CustomerConfirmPassword="ngModel" [(ngModel)]="customerService.selectedCustomer.CustomerConfirmPassword"></td></tr>
+   
+
+                         
+                          
+                            <tr><td>Gender:-</td>
+                          <td><br><input type="radio" value="male" name="CustomerGender" #CustomerGender="ngModel" [(ngModel)]="customerService.selectedCustomer.CustomerGender">                        
+                          Male
+                        
+                       
+                        <br>
+                         <input type="radio" value="female"  name="CustomerGender" #CustomerGender="ngModel" [(ngModel)]="customerService.selectedCustomer.CustomerGender">
+                         Female<br></td></tr>
+                           
+                        
+                         <tr><td> <br><button [disabled]="!customerForm.valid" type="submit" class="btn btn-lg btn-black btn-info">Submit</button></td>
+                         <td><br><button type="button" class="btn btn-lg btn-black btn-secondary" (click)="resetForm(customerForm)" >Reset</button></td></tr>                                         
+
+      </table>
+
+</form>

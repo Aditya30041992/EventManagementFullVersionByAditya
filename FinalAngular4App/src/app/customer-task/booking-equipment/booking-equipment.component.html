@@ -1,0 +1,32 @@
+<div>
+  <app-customer-task></app-customer-task>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <app-booking-route></app-booking-route> 
+  </div>
+  <div class="col-md-6">
+<form  class="custm-form" #bookequipmentForm="ngForm" (ngSubmit)="onSubmit(bookequipmentForm)">
+  <table cellpadding="10"  align="center"  >
+
+
+    
+    <tr><td>Select Equipment :-</td></tr>
+    <tr><td><input type="radio" value="E01" class="form-control" name="EquipmentId" #EquipmentId="ngModel" [(ngModel)]="customerTaskService.selectedBookEquipment.EquipmentId"></td><td>DJ</td></tr>
+
+    <tr><td><input type="radio" value="E02" class="form-control" name="EquipmentId" #EquipmentId="ngModel" [(ngModel)]="customerTaskService.selectedBookEquipment.EquipmentId"></td><td>Speakers and Mike</td></tr>   
+   
+    <tr><td>Customer Id :-</td><td><input type="number" class="form-control" name="CustomerId" [(ngModel)]="cid"></td></tr>   
+
+
+    
+    <tr><td> <br><button [disabled]="!bookequipmentForm.valid" type="submit" class="btn btn-lg btn-black btn-info">Submit</button></td>
+
+    <td><br><button type="button" class="btn btn-lg btn-black btn-secondary" (click)="resetForm(bookequipmentForm)" >Reset</button></td></tr>                                         
+                         
+
+      </table>
+
+</form>
+</div>
+</div>

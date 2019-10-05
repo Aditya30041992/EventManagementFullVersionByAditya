@@ -1,0 +1,32 @@
+<div>
+    <app-admin-task></app-admin-task>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+      <app-edit-venue></app-edit-venue>
+    </div>
+    <div class="col-md-6">
+      <table class="table table-sm table-hover">
+        <tr *ngFor="let venue of adminService.showVenue"  >
+          <td>{{venue.VenueId}}</td>
+          <td>{{venue.VenueName}}</td>
+          <td>{{venue.VenueCost}}</td>
+          <td>{{venue.VenueCapacity}}</td>
+          <td>{{venue.VenueContact}}</td>
+          <td>{{venue.VenueAddress}}</td>
+         <!-- <td>{{venue.VenueFileName}}</td>
+          <td>{{venue.VenueFilePath}}</td>-->
+ 
+          <td>
+            <a class="btn" (click)="editVenue(venue)">
+              <i class="fa fa-pencil-square-o">Edit</i>
+            </a>
+            <a class="btn text-danger" (click)="onDeleteVenue(venue.VenueId)">
+              <i class="fa fa-trash-o">Delete</i>
+            </a>
+          </td>
+        </tr> 
+      </table>
+    </div>
+  </div>

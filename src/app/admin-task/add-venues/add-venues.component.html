@@ -1,0 +1,37 @@
+<div>
+    <app-admin-task></app-admin-task>
+
+  <form  class="custm-form" #venueForm="ngForm" (ngSubmit)="onSubmit(venueForm)">
+  <table cellpadding="10"  align="center"  >
+            
+            <tr><td>Venue-ID :-</td><td><input class="form-control" name="VenueId" #VenueId="ngModel" [(ngModel)]="adminTaskService.selectedVenue.VenueId" required></td></tr>
+
+              <tr><td> Venue Name :- </td><td><input class="form-control" name="VenueName" #VenueName="ngModel" [(ngModel)]="adminTaskService.selectedVenue.VenueName"></td></tr>
+      
+                  <tr> <td>Venue Cost :-</td><td><input type="number" class="form-control" name="VenueCost" #VenueCost="ngModel" [(ngModel)]="adminTaskService.selectedVenue.VenueCost"></td></tr>
+                   
+                      <tr><td>Venue Capacity :-</td><td><input type="number" class="form-control" name="VenueCapacity" #VenueCapacity="ngModel" [(ngModel)]="adminTaskService.selectedVenue.VenueCapacity"></td></tr>
+
+                      <tr><td>Venue Contact No. :-</td><td><input type="number" class="form-control" name="VenueContact" #VenueContact="ngModel" [(ngModel)]="adminTaskService.selectedVenue.VenueContact"></td></tr>
+                     
+                      <tr><td>Venue Address :-</td><td><input class="form-control" name="VenueAddress" #VenueAddress="ngModel" [(ngModel)]="adminTaskService.selectedVenue.VenueAddress"></td></tr>   
+                        
+                         <tr><td> <br><button [disabled]="!venueForm.valid" type="submit" class="btn btn-lg btn-black btn-info">Submit</button></td>
+                         <td><br><button type="button" class="btn btn-lg btn-black btn-secondary" (click)="resetForm(venueForm)" >Reset</button></td></tr>                                                              
+                         
+                         <tr><td><div class="page-header">
+                            <div class="container">
+                             <div class="navLinks" >
+                                <a [routerLink]="['/show-venue']">Show Venues List</a>                                                           
+                              </div>
+                            </div>
+                          </div></td></tr>
+                      
+      </table>
+     
+  </form>
+      <div id="content">
+        <router-outlet></router-outlet>
+      </div>
+</div>     
+

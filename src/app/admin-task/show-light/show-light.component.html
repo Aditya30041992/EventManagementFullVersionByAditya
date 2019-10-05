@@ -1,0 +1,31 @@
+<div>
+    <app-admin-task></app-admin-task>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+      <app-edit-lighting></app-edit-lighting>
+    </div>
+    <div class="col-md-6">
+<table class="table table-sm table-hover">
+  <tr *ngFor="let light of adminService.showLight"  >
+ <td>{{light.LightId}}</td>
+ <td>{{light.LightName}}</td>
+ <td>{{light.LightCost}}</td>
+ <!--<td>{{light.LightType}}</td>
+ <td>{{light.LightFileName}}</td>
+ <td>{{light.LightFilePath}}</td>-->
+ <td>
+  <a class="btn" (click)="editLighting(light)">
+    <i class="fa fa-pencil-square-o">Edit</i>
+  </a>
+
+  <a class="btn text-danger" (click)="onDeleteLighting(light.LightId)">
+    <i class="fa fa-trash-o">Delete</i>
+  </a>
+</td>
+
+ </tr> 
+ </table>
+ </div>
+</div>

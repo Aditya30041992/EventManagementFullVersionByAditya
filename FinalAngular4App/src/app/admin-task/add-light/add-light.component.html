@@ -1,0 +1,34 @@
+<div>
+    <app-admin-task></app-admin-task>
+
+  <form  class="custm-form" #lightForm="ngForm" (ngSubmit)="onSubmit(lightForm)">
+  <table align="center" cellpadding="10" >
+            
+    <tr><td>LightId :-</td><td><input class="form-control" name="LightId" #LightId="ngModel" [(ngModel)]="adminTaskService.selectedLight.LightId"></td></tr>
+
+   
+     <tr><td>Light Name :- </td><td><input class="form-control" name="LightName" #LightName="ngModel" [(ngModel)]="adminTaskService.selectedLight.LightName"></td></tr>
+
+   
+     <tr> <td>Light Cost :-</td><td><input type="number" class="form-control" name="LightCost" #LightCost="ngModel" [(ngModel)]="adminTaskService.selectedLight.LightCost"></td></tr>
+
+     <tr><td> <br><button [disabled]="!lightForm.valid" type="submit" class="btn btn-lg btn-black btn-info">Submit</button></td>
+
+     <td><br><button type="button" class="btn btn-lg btn-black btn-secondary" (click)="resetForm(lightForm)" >Reset</button></td></tr>                                         
+     
+     <tr><td>
+        <div class="page-header">
+            <div class="container">
+              <div class="navLinks" >
+                <a [routerLink]="['/show-light']">Show Lighting List</a>                                                           
+              </div>
+            </div>
+        </div></td></tr> 
+     
+     </table>    
+</form>
+      <div id="content">
+        <router-outlet></router-outlet>
+      </div>
+</div>
+

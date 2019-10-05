@@ -1,0 +1,23 @@
+<div>
+    <app-admin-task></app-admin-task>
+</div>
+
+<div class="row">
+ <table class="table table-sm table-hover">
+   <tr><td><b>CustomerId</b></td>
+    <td><b>CustomerName</b></td>
+    <td><b>CustomerContact</b></td>
+    <td><b>VenueName</b></td>
+    <td><b>VenueCost</b></td>
+    <td><b>BookDate</b></td>
+  </tr>
+  <tr *ngFor="let book of adminService.showBookings"  >
+ <td>{{book.CustomerId}}</td>
+ <td>{{book.CustomerName}}</td>
+ <td>{{book.CustomerContact}}</td>
+ <td>{{book.VenueName}}</td>
+ <td>{{book.VenueCost}}</td>
+ <td>{{book.BookDate}}</td> 
+ </tr> 
+ </table>
+ </div>

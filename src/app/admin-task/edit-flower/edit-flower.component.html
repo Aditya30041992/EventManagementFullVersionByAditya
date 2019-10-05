@@ -1,0 +1,18 @@
+<div class="row">
+  <form  class="custm-form" #flowerForm="ngForm" (ngSubmit)="onSubmit(flowerForm)">
+  <table align="center" cellpadding="10" >
+            
+            <tr><td>Flower Id :-</td><td><input type="hidden" class="form-control" name="FlowerId" #FlowerId="ngModel" [(ngModel)]="adminTaskService.selectedFlower.FlowerId"></td></tr>
+      
+              <tr><td>Flower Name :- </td><td><input class="form-control" name="FlowerName" #FlowerName="ngModel" [(ngModel)]="adminTaskService.selectedFlower.FlowerName"></td></tr>
+      
+                  <tr> <td>Flower Cost :-</td><td><input type="number" class="form-control" name="FlowerCost" #FlowerCost="ngModel" [(ngModel)]="adminTaskService.selectedFlower.FlowerCost"></td></tr>
+                   
+                        
+                         <tr><td> <br><button [disabled]="!flowerForm.valid" type="submit" class="btn btn-lg btn-black btn-info">Update</button></td>
+                         <td><br><button type="button" class="btn btn-lg btn-black btn-secondary" (click)="resetForm(flowerForm)" >Reset</button></td></tr>                                         
+                         
+ </table>      
+</form>
+</div>
+

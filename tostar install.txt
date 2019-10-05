@@ -1,0 +1,1 @@
+ npm  install ngx-toastr@6.4.1-beta.0 --save

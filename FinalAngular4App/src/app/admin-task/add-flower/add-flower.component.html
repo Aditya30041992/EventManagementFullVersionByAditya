@@ -1,0 +1,30 @@
+<div>
+    <app-admin-task></app-admin-task>
+
+  <form  class="custm-form" #flowerForm="ngForm" (ngSubmit)="onSubmit(flowerForm)">
+  <table align="center" cellpadding="10" >
+            
+            <tr><td>Flower Id :-</td><td><input class="form-control" name="FlowerId" #FlowerId="ngModel" [(ngModel)]="adminTaskService.selectedFlower.FlowerId" required></td></tr>
+      
+              <tr><td>Flower Name :- </td><td><input class="form-control" name="FlowerName" #FlowerName="ngModel" [(ngModel)]="adminTaskService.selectedFlower.FlowerName"></td></tr>
+      
+                  <tr> <td>Flower Cost :-</td><td><input type="number" class="form-control" name="FlowerCost" #FlowerCost="ngModel" [(ngModel)]="adminTaskService.selectedFlower.FlowerCost"></td></tr>
+                   
+                        
+                         <tr><td> <br><button [disabled]="!flowerForm.valid" type="submit" class="btn btn-lg btn-black btn-info"><i class="fa.fa-floppy-o"></i>Submit</button></td>
+                         <td><br><button type="button" class="btn btn-lg btn-black btn-secondary" (click)="resetForm(flowerForm)" ><i class="fa.fa-repeat"></i>Reset</button></td></tr>                                         
+                          <tr><td>
+                         <div class="page-header">
+                            <div class="container">
+                              <div class="navLinks" >
+                                <a [routerLink]="['/show-flower']">Show Flowers List</a>                                                           
+                              </div>
+                            </div>
+                          </div></td></tr>
+  </table>      
+</form>
+      <div id="content">
+        <router-outlet></router-outlet>
+      </div>
+</div>
+

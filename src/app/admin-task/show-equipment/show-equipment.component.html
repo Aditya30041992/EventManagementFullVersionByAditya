@@ -1,0 +1,29 @@
+<div>
+    <app-admin-task></app-admin-task>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <app-edit-equipment></app-edit-equipment>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-sm table-hover">
+             <tr *ngFor="let equipment of adminService.showEquipment"  >
+            <td>{{equipment.EquipmentId}}</td>
+            <td>{{equipment.EquipmentName}}</td>
+            <td>{{equipment.EquipmentCost}}</td>
+           <!-- <td>{{equipment.EquipmentFileName}}</td>
+            <td>{{equipment.EquipmentFilePath}}</td>-->
+  <td>
+    <a class="btn" (click)="editEquipment(equipment)">
+      <i class="fa fa-pencil-square-o">Edit</i>
+    </a>
+
+    <a class="btn text-danger" (click)="onDeleteEquipment(equipment.EquipmentId)">
+      <i class="fa fa-trash-o">Delete</i>
+    </a>
+</td>
+ </tr> 
+ </table>
+ </div>
+</div>

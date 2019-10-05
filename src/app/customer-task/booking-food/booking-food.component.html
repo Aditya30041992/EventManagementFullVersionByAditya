@@ -1,0 +1,54 @@
+<div>
+  <app-customer-task></app-customer-task>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <app-booking-route></app-booking-route> 
+  </div>
+  <div class="col-md-6">
+  <form  class="custm-form" #bookfoodForm="ngForm" (ngSubmit)="onSubmit(bookfoodForm)">
+  <table cellpadding="10"  align="center"  >
+
+    <tr><td>Food Type:-</td>
+      <td><input type="radio" value="FD01" name="FoodType" #FoodType="ngModel" [(ngModel)]="customerTaskService.selectedBookFood.FoodType">                        
+      Veg    
+     <input type="radio" value="FD02" name="FoodType" #FoodType="ngModel" [(ngModel)]="customerTaskService.selectedBookFood.FoodType">
+     Non-Veg</td></tr>
+
+    <tr><td>Meal Type :-</td>
+      <td><input type="radio" value="FD03" name="MealType" #MealType="ngModel" [(ngModel)]="customerTaskService.selectedBookFood.MealType">                        
+      Lunch    
+     <input type="radio" value="FD04" name="MealType" #MealType="ngModel" [(ngModel)]="customerTaskService.selectedBookFood.MealType">
+     Dinner</td></tr>
+   
+     <tr><td>Dist Type</td><td><select name="DishType" #DishType="ngModel" [(ngModel)]="customerTaskService.selectedBookFood.DishType">
+      <option value="FD05">Delux</option>
+      <option value="FD06">Regular</option>
+    </select></td></tr>
+
+
+    <tr><td>Dist Name</td><td><select name="DishName" #DishName="ngModel" [(ngModel)]="customerTaskService.selectedBookFood.DishName">
+      <option value="FD07">South Indian Thali</option>
+      <option value="FD08">North Indian Thali</option>
+      <option value="FD09">Panjabi Thali</option>
+      <option value="FD10">Maharashtian Thali</option>
+
+    </select></td></tr>
+
+    <tr><td>Customer Id :-</td><td><input type="number" class="form-control" name="CustomerId" [(ngModel)]="cid"></td></tr>   
+
+
+    
+    <tr><td> <br><button [disabled]="!bookfoodForm.valid" type="submit" class="btn btn-lg btn-black btn-info">Submit</button></td>
+
+    <td><br><button type="button" class="btn btn-lg btn-black btn-secondary" (click)="resetForm(bookfoodForm)" >Reset</button></td></tr>                                         
+                         
+
+      </table>
+
+</form>
+</div>
+</div>

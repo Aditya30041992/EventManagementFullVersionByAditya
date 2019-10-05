@@ -1,0 +1,30 @@
+
+<div>
+  <app-admin-task></app-admin-task>
+
+  <form  class="custm-form" #equipmentForm="ngForm" (ngSubmit)="onSubmit(equipmentForm)">
+  <table align="center" cellpadding="10" >
+            
+            <tr><td>Equipment ID :-</td><td><input class="form-control" name="EquipmentId" #EquipmentId="ngModel" [(ngModel)]="adminTaskService.selectedEquipment.EquipmentId" required></td></tr>
+          
+              <tr><td>Equipment Name :- </td><td><input class="form-control" name="EquipmentName" #EquipmentName="ngModel" [(ngModel)]="adminTaskService.selectedEquipment.EquipmentName"></td></tr>
+                 
+                  <tr> <td>Equipment Cost :-</td><td><input type="number" class="form-control" name="EquipmentCost" #EquipmentCost="ngModel" [(ngModel)]="adminTaskService.selectedEquipment.EquipmentCost"></td></tr>
+                 
+                        
+                         <tr><td> <br><button [disabled]="!equipmentForm.valid" type="submit" class="btn btn-lg btn-black btn-info">Submit</button></td>
+                         <td><br><button type="button" class="btn btn-lg btn-black btn-secondary" (click)="resetForm(equipmentForm)" >Reset</button></td></tr>    
+                         <div class="page-header">
+                            <div class="container">
+                               <div class="navLinks" >
+                                  <a [routerLink]="['/show-equipment']">Show Equipments List</a>                                                           
+                                </div>
+                              </div>
+                          </div>  
+                                                                                   
+  </table>     
+</form>
+    <div id="content">
+      <router-outlet></router-outlet>
+    </div>  
+</div>

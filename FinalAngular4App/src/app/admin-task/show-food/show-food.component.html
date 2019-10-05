@@ -1,0 +1,34 @@
+<div>
+    <app-admin-task></app-admin-task>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <app-edit-food></app-edit-food>
+  </div>
+    <div class="col-md-6">
+<table class="table table-sm table-hover">
+  <tr *ngFor="let food of adminService.showFood"  >
+ <td>{{food.FoodId}}</td>
+ <td>{{food.FoodName}}</td>
+ <td>{{food.FoodCost}}</td>
+ <!--<td>{{food.FoodType}}</td>
+ <td>{{food.MealType}}</td>
+ <td>{{food.DishType}}</td>
+ 
+ <td>{{food.FoodFileName}}</td>
+ <td>{{food.FoodFilePath}}</td>-->
+ <td>
+  <a class="btn" (click)="editFood(food)">
+    <i class="fa fa-pencil-square-o">Edit</i>
+  </a>
+
+  <a class="btn text-danger" (click)="onDeleteFood(food.FoodId)"> 
+    <i class="fa fa-trash-o">Delete</i>
+  </a>
+</td>
+
+ </tr> 
+ </table>
+ </div>
+</div>

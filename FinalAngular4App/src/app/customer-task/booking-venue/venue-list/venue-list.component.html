@@ -1,0 +1,20 @@
+<div>
+    <app-customer-task></app-customer-task>
+  </div>
+
+
+
+<div>
+      <table class="table table-sm table-hover">
+        <tr>
+          <td><b>Venue Name</b></td> <td><b>Venue Cost</b></td> <td><b>Venue Capacity</b></td> <td><b>Owner Contact</b></td> <td><b>Venue Address</b></td>
+        </tr>
+        <tr *ngFor="let venue of customerService.showVenue"  >          
+          <td>{{venue.VenueName}}</td>
+          <td>{{venue.VenueCost}}</td>
+          <td>{{venue.VenueCapacity}}</td>
+          <td>{{venue.VenueContact}}</td>
+          <td>{{venue.VenueAddress}}</td>
+        </tr> 
+      </table>
+</div>

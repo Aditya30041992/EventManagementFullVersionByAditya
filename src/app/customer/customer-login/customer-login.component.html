@@ -1,0 +1,21 @@
+
+<div>
+    <h1 align="center" class="jumbotron bg-secondary text-white">Customer Login</h1>
+
+<form class="form" #customerLogin="ngForm" (ngSubmit)='login(customerLogin)'>
+
+<table align="center" cellpadding="20" >
+ 
+  <tr><td>CustomerID :-</td><td><input type="number" id="CustomerId" class="form-control" ngModel name="CustomerId"  [(ngModel)]="authenticationService.CustomerId"></td></tr>
+
+
+  <tr><td>Password :-</td><td><input type="password" id="CustomerPassword" class="form-control" ngModel name="CustomerPassword" [(ngModel)]="authenticationService.CustomerPassword"></td></tr>
+
+
+    <tr><td><button  type="submit" [disabled]="!customerLogin.valid" class="btn btn-lg btn-block btn-success">Login</button>
+    </td></tr>
+               
+</table>
+</form>
+
+</div>

@@ -1,0 +1,23 @@
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\bin\Debug\DAL.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\bin\Debug\DAL.pdb
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\obj\Debug\DAL.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\obj\Debug\DAL.pdb
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\bin\Debug\BOL.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\bin\Debug\BOL.pdb
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\obj\Debug\DAL.csproj.CopyComplete
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\bin\Debug\MySql.Data.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\bin\Debug\Google.Protobuf.dll
+H:\.Net Project Wedding Event Management Sysstem\EventManagementMVC\DAL\bin\Debug\MySql.Data.xml
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\bin\Debug\DAL.dll
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\bin\Debug\DAL.pdb
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\bin\Debug\BOL.dll
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\bin\Debug\Google.Protobuf.dll
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\bin\Debug\BOL.pdb
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\bin\Debug\MySql.Data.xml
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\obj\Debug\DAL.dll
+F:\EventManagementMvc Final project\EventManagementMVC\DAL\obj\Debug\DAL.pdb

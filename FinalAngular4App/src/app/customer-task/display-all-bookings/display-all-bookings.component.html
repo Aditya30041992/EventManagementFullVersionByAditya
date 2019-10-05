@@ -1,0 +1,106 @@
+<div>
+    <app-customer-task></app-customer-task>
+  </div>
+  
+  <div class="row">
+
+    <h2><i><u>Veune Book</u></i></h2><br>
+        <table class="table table-sm table-hover" border="1">
+          <tr><td><b>Venue Name</b></td>
+            <td><b>Booking Date</b></td>
+            <td><b>Cost</b></td>
+                        
+          </tr>
+               <tr *ngFor="let venue of customerService.bookVenue">
+              <td>{{venue.VenueName}}</td>
+              <td>{{venue.BookDate}}</td>
+              <td>{{venue.VenueCost}}</td>
+              <td>    
+                  <a class="btn text-danger" (click)="onDeleteVenue(venue.Id)">
+                    <i class="fa fa-trash-o"><u><b>Delete</b></u></i>
+                  </a>
+                </td>
+    </tr> 
+    </table>
+  </div>
+ 
+ 
+ 
+  <div class="row">
+      <h2><i><u>Equipment Book</u></i></h2><br>
+      <table class="table table-sm table-hover" border="1">
+          <tr><td><b>Equipment Name</b></td>
+            <td><b>Equipment Cost</b></td>
+                     
+          </tr>
+             <tr *ngFor="let eqp of customerService.bookEqp">
+            <td>{{eqp.EquipmentName}}</td>
+            <td>{{eqp.EquipmentCost}}</td>
+            <td>  
+                <a class="btn text-danger" (click)="onDeleteEquipment(eqp.EquipmentId)">
+                  <i class="fa fa-trash-o"><u><b>Delete</b></u></i>
+                </a>
+              </td>   
+  </tr> 
+  </table>
+  </div>
+
+
+  <div class="row"> 
+      <h2><i><u>Flower Book</u></i></h2><br>
+      <table class="table table-sm table-hover" border="1">
+          <tr><td><b>Flower Name</b></td>
+            <td><b>Flower Cost</b></td>
+                  
+          </tr>
+               <tr *ngFor="let flw of customerService.bookFlower">
+              <td>{{flw.FlowerName}}</td>
+              <td>{{flw.FlowerCost}}</td>
+              <td>
+                  <a class="btn text-danger" (click)="onDeleteFlower(flw.Id)">
+                  <i class="fa fa-trash-o"><u><b>Delete</b></u></i>
+                </a>
+              </td>
+    </tr> 
+    </table>
+  </div>
+
+
+  <div class="row">
+      <h2><i><u>Light Book</u></i></h2><br>
+      <table class="table table-sm table-hover" border="1">
+          <tr><td><b>Light Name</b></td>
+            <td><b>Light Cost</b></td>
+                     
+          </tr>
+               <tr *ngFor="let light of customerService.bookLight">
+              <td>{{light.LightName}}</td>
+              <td>{{light.LightCost}}</td>
+              <td>    
+                  <a class="btn text-danger" (click)="onDeleteLight(light.Id)">
+                    <i class="fa fa-trash-o"><u><b>Delete</b></u></i>
+                  </a>
+                </td> 
+        </tr> 
+    </table>
+    </div>
+
+
+  <div class="row">
+      <h2><i><u>Food Book</u></i></h2><br>
+      <table class="table table-sm table-hover" border="1">
+          <tr><td><b>Food Name</b></td>
+            <td><b>Food Cost</b></td>
+            
+          </tr>
+               <tr *ngFor="let food of customerService.bookFood">
+              <td>{{food.FoodName}}</td>
+              <td>{{food.FoodCost}}</td> 
+              <td>    
+                  <a class="btn text-danger" (click)="onDeleteFood(food.Id)">
+                    <i class="fa fa-trash-o"><u><b>Delete</b></u></i>
+                  </a>
+                </td>   
+    </tr> 
+    </table>
+  </div>
